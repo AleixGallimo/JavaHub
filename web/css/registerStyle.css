@@ -1,0 +1,68 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+}
+#formDiv{
+    width: 400px;
+    height: 215px;
+    margin: 0 auto 0 auto;
+}
+h1{
+    color: #ee9634;
+}
+#form{
+    width: 500px;
+    height: 730px;
+    background-color: rgba(0,0,0,0.2);
+    padding-top: 10px;
+    margin: 50px auto 200px auto;
+    color: white;
+}
+#clean{
+    clear: none;
+}
+#title{
+    padding-bottom: 5px;
+}
+#button_login{
+    width: 193px;
+    color: black;
+    background-color: #ee9634;
+}
+#button_register{
+    width: 193px;
+    color: black;
+    background-color: white;
+}
+#button_login:hover {
+    background: #dd8624;
+}
+#button_register:hover {
+    background: #fcd6ac;
+}
+
+#b_login{
+    width: 193px;
+    float: left;
+    margin-right: 10px;
+}
+#b_register{
+    width: 193px;
+    float: left;
+}
+.hobby{
+    width: 112px;
+    float: left;
+    margin-right: 5px;
+}
+#hobbies{
+    margin-bottom: 10px;
+    height: 35px;
+}
+select{
+    color: black;
+}
+
+.clean{
+    clear: none;
+}

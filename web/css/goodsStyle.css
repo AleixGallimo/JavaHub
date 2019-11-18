@@ -1,0 +1,385 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+    background-color: #1e1f23;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+#food{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*状态栏信息*/
+#head{
+    width: 100%;
+    height: 30px;
+    /*border: black 1px solid;*/
+    background-color: rgba(0,0,0,0.5);
+}
+/*文字框样式*/
+#font{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin: 0 auto 0 auto;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    /*background-color: black;*/
+    /*background-color: #2aabd2;*/
+    /*margin-bottom: 25px;*/
+}
+#logoTitle{
+    width: 390px;
+    margin: 0 auto 0px auto;
+}
+
+/*价格区段*/
+#s_p{
+    width: 270px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: #9b9b9b;
+}
+.tp{
+    width: 50px;
+    background-color: rgba(0,0,0,0.2);
+    border: #ee9634 solid 1px;
+}
+#button_enter1{
+    width: 70px;
+    height: 30px;
+    color: #ee9634;
+    background-color: #131313;
+    line-height: 10px;
+}
+#button_enter1:hover {
+    background: #dd8624;
+    color: #131313;
+}
+
+/*筛选框样式*/
+#screen{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0 auto 20px auto;
+}
+
+#id{
+    width: 185px;
+    height: 30px;
+    float: right;
+    color: #9b9b9b;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 10px;
+}
+#logout{
+    width: 60px;
+    height: 30px;
+    float: right;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+/*筛选样式*/
+#s_s{
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 70px;
+
+}
+#s_o{
+    text-align: right;
+    width: 250px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+#s2{
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+}
+#s3{
+    width: 60px;
+    float: left;
+}
+/*按钮样式*/
+#button_enter{
+    width: 70px;
+    height: 30px;
+    color: #ee9634;
+    background-color: #131313;
+    line-height: 10px;
+}
+#button_enter:hover {
+    background: #dd8624;
+    color: #131313;
+}
+
+#button_add{
+    width: 70px;
+    height: 30px;
+    background-color: #131313;
+    color: #ee9634;
+    line-height: 10px;
+}
+#button_add:hover {
+    background: #dd8624;
+    color: #131313;
+}
+
+#button_all{
+    width: 70px;
+    height: 30px;
+    background-color: #131313;
+    color: #ee9634;
+    line-height: 10px;
+}
+#button_all:hover {
+    background: #dd8624;
+    color: #131313;
+}
+
+#button_del{
+    width: 100px;
+    height: 30px;
+    background-color: #131313;
+    color: #ee9634;
+    line-height: 10px;
+}
+#button_del:hover {
+    background: #dd8624;
+    color: #131313;
+}
+select{
+    width: 120px;
+    color: #ee9634;
+    background-color: #131313;
+    border-color: #ee9634;
+}
+
+#nullGoods{
+    margin: 100px auto;
+}
+
+
+/*搜索框样式*/
+.search{
+    width: 230px;
+    margin: 0 auto;
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    /*border: 1px solid red;*/
+}
+.search input{
+    float: left;
+    flex: 4;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ee9634;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+}
+.search button{
+    float: right;
+    flex: 1;
+    height: 30px;
+    background-color: #ee9634;
+    color: black;
+    border-style: none;
+    outline: none;
+}
+.search button i{
+    font-style: normal;
+}
+.search button:hover{
+    color: #4b4b4b;
+}
+
+
+
+
+
+
+
+
+/*最大list样式*/
+#b_list{
+    width: 1250px;
+    /*background-color: rgba(0,0,0,0.4);*/
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+/*搜索框样式*/
+#search{
+    width: 400px;
+    height: 50px;
+    margin: 30px auto 0 auto;
+    background-color: white;
+}
+
+/*小盒子list样式*/
+.list{
+    /*width: 212px;*/
+    width: 222px;
+    height: 320px;
+    /*background-color: #212121;*/
+    background-color: rgba(0,0,0,0.3);
+    float: left;
+    margin: 0px 0 40px 22.5px;
+}
+/*图片*/
+.l_img{
+    width: 200px;
+    height: 140px;
+    background-color: #2e6da4;
+    margin: 11px;
+}
+/*价格*/
+.l_price{
+    font-size: 20px;
+    width: 200px;
+    height: 25px;
+    /*background-color: #66afe9;*/
+    margin: 6px 11px 6px 11px;
+
+}
+.p_p{
+    width: 100px;
+    float: left;
+    color: #f8a035;
+}
+.p_s{
+    margin-top: 9px;
+    width: 100px;
+    float: left;
+    text-align: right;
+    font-size: 10px;
+    color: rgba(255,255,255,0.3);
+}
+/*标题*/
+.l_title{
+    font-size: 25px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    /*background-color: #3e8f3e;*/
+    margin: 6px 11px 6px 11px;
+}
+/*描述*/
+.l_description{
+    font-size: 10px;
+    width: 200px;
+    height: 55px;
+    /*background-color: pink;*/
+    margin: 6px 11px 6px 11px;
+    color: #a0a0a0;
+}
+/*操作*/
+.l_operation{
+    width: 200px;
+    height: 17px;
+    /*background-color: white;*/
+    margin: 6px;
+    text-align: right;
+
+}
+a{
+    font-size: 8px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-decoration:none;
+    line-height: 10px;
+}
+a:link{
+    color: #c68b1d;
+}
+a:visited{
+    color: #c68b1d;
+}
+a:hover{
+    color: #d68730;
+    text-decoration:none;
+}
+a:active{
+    color: #ffa136;
+    text-decoration:none;
+}
+
+.clear{
+    clear: both;
+}
+.cb{
+    margin: 0;
+}
+#auto{
+    width: 1000px;
+    height: 550px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+input[type=checkbox] {
+    width:10px;
+    height:10px;
+    text-align: center;
+}
+input[type=checkbox]:after {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    content: " ";
+    background-color:#212121;
+    display: inline-block;
+    visibility: visible;
+    border-radius: 2px;
+    border:1px solid #c68b1d;
+}
+input[type=checkbox][disabled=disabled]:after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    content: " ";
+    background-color:#DCDCDC;
+    color: white;
+    display: inline-block;
+    visibility: visible;
+    border-radius: 2px;
+    border:1px solid #A9A9A9;
+}
+input[type=checkbox]:checked:after {
+    content: "\25C6";/*UNICODE中对号*/
+    font-size: 8px;
+    line-height: 10px;
+    font-weight:bold;
+    color: #c68b1d;
+}
+
+/*页码样式*/
+#foodDiv{
+    width: 1000px;
+}
+#lastFood{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 600px;
+}

@@ -1,0 +1,60 @@
+/*#head{
+    background-color: #323336;
+    width: 100%;
+    height: 80px;
+}
+#login{
+    float: right;
+    margin: 20px 20px 0 0;
+}*/
+
+/*index 页面样式*/
+body{
+    background-color: #202124;
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+}
+#div{
+    width: 100%;
+    height: 70%;
+}
+#logo{
+    margin: 200px auto auto auto;
+    width: 570px;
+    height: 140px;
+}
+#button{
+    width: 100%;
+    height: 400px;
+}
+#text{width: 100%;}
+#text_son{width:450px;margin:30px auto 20px auto;color: white; }
+#text_son2{width:250px;margin:160px auto 20px auto;color: white; }
+#b_login{
+    width: 260px;
+    margin: 0px auto 20px auto;
+}
+#b_register{
+    width: 260px;
+    margin: 0 auto 0 auto;
+}
+#button_login{
+    width: 260px;
+    color: black;
+    background-color: #ee9634;
+}
+#button_register{
+    width: 260px;
+    color: black;
+    background-color: white;
+}
+#button_login:hover {
+    background: #dd8624;
+}
+#button_register:hover {
+    background: #fcd6ac;
+}
+
+
+
+

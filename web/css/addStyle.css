@@ -1,0 +1,53 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+}
+#form{
+    width: 480px;
+    height: 590px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    margin: 50px auto;
+    padding-top: 10px;
+}
+span{
+    color: white;
+}
+h1{
+    color: #ee9634;
+}
+#formDiv{
+    width: 400px;
+    height: 500px;
+    /*background-color: white;*/
+    margin: 0 auto 0 auto;
+}
+#title{
+    padding-bottom: 5px;
+}
+#b_add{
+    width: 193px;
+    float: left;
+    margin-right: 10px;
+}
+#b_back{
+    width: 193px;
+    float: left;
+}
+
+#button_add{
+    width: 193px;
+    color: black;
+    background-color: #ee9634;
+}
+#button_back{
+    width: 193px;
+    color: black;
+    background-color: white;
+}
+#button_add:hover {
+    background: #dd8624;
+}
+#button_back:hover {
+    background: #fcd6ac;
+}
